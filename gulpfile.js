@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-zen');
+var bitcoreTasks = require('bitcore-build-snowgem');
 
 bitcoreTasks('lib');

@@ -6,9 +6,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-snowgem found. ' +
-      'Please make sure to require bitcore-lib-snowgem and check that submodules do' +
-      ' not also include their own bitcore-lib-snowgem dependency.';
+    var message = 'More than one instance of bitcore-lib-zeroclassic found. ' +
+      'Please make sure to require bitcore-lib-zeroclassic and check that submodules do' +
+      ' not also include their own bitcore-lib-zeroclassic dependency.';
     // TODO: put this back if we start versioning again
     //throw new Error(message);
   }

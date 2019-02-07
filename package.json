@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-snowgem",
+  "name": "bitcore-lib-zeroclassic",
   "version": "0.13.19",
-  "description": "A pure and powerful JavaScript Zcash library.",
+  "description": "A pure and powerful JavaScript ZeroClassic library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -61,7 +61,7 @@
     }
   ],
   "keywords": [
-    "snowgem",
+    "zeroclassic",
     "transaction",
     "address",
     "p2p",
@@ -78,7 +78,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowgem/bitcore-lib-snowgem.git"
+    "url": "https://github.com/miodragpop/bitcore-lib-zeroclassic.git"
   },
   "browser": {
     "request": "browser-request"
@@ -92,7 +92,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build-snowgem": "snowgem/bitcore-build-snowgem",
+    "bitcore-build-zeroclassic": "zeroclassic/bitcore-build-zeroclassic",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",

@@ -1,67 +1,18 @@
 {
   "name": "bitcore-lib-zeroclassic",
-  "version": "0.13.19",
+  "version": "8.3.4",
   "description": "A pure and powerful JavaScript ZeroClassic library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
     "test": "gulp test",
+    "test:ci": "npm run test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
-  "contributors": [
-    {
-      "name": "Daniel Cousens",
-      "email": "bitcoin@dcousens.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Gordon Hall",
-      "email": "gordon@bitpay.com"
-    },
-    {
-      "name": "Jeff Garzik",
-      "email": "jgarzik@bitpay.com"
-    },
-    {
-      "name": "Kyle Drake",
-      "email": "kyle@kyledrake.net"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryanxcharles@gmail.com"
-    },
-    {
-      "name": "Stefan Thomas",
-      "email": "moon@justmoon.net"
-    },
-    {
-      "name": "Stephen Pair",
-      "email": "stephen@bitpay.com"
-    },
-    {
-      "name": "Wei Lu",
-      "email": "luwei.here@gmail.com"
-    },
-    {
-      "name": "Jack Grigg",
-      "email": "jack@z.cash"
-    }
-  ],
   "keywords": [
-    "zeroclassic",
+    "bitcoin",
     "transaction",
     "address",
     "p2p",
@@ -78,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/miodragpop/bitcore-lib-zeroclassic.git"
+    "url": "https://github.com/miodragpop/bitcore-lib-zeroclassic.git#nextgen"
   },
   "browser": {
     "request": "browser-request"
@@ -89,10 +40,10 @@
     "buffer-compare": "=1.1.1",
     "elliptic": "=6.4.0",
     "inherits": "=2.0.1",
-    "lodash": "=4.17.11"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "bitcore-build-zeroclassic": "github:miodragpop/bitcore-build-zeroclassic",
+    "bitcore-build-zeroclassic": "git+https://github.com/miodragpop/bitcore-build-zeroclassic.git#nextgen",
     "brfs": "^2.0.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.0",
